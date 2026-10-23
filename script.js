@@ -1,8 +1,8 @@
 // Nomor WhatsApp aktif (format: 628xxxxxxxxxx)
 const WHATSAPP_NUMBERS = [
+    '6281295181963',
     '6282135271702',
-    '6282398472448',
-    '6281295181963'
+    '6282398472448'
 ];
 
 function orderViaWhatsApp(product, price) {
