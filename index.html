@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="TIDIAN FARMER - Telur Segar Langsung Panen dari Kandang Kami. 1 Rak Isi 12 Telur Rp 39.000.">
+    <title>TIDIAN FARMER - Telur Segar Berkualitas</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="min-h-screen flex items-center justify-center p-4 md:p-8 leaf-pattern">
+
+    <!-- Container Brosur -->
+    <div class="max-w-md w-full bg-white rounded-3xl shadow-2xl overflow-hidden border-4 border-farm-light relative">
+        <div class="ribbon">BEST SELLER</div>
+
+        <!-- Header / Banner -->
+        <div class="warm-gradient text-white p-8 text-center relative overflow-hidden">
+            <!-- Decorative Elements -->
+            <div class="absolute -top-20 -left-20 w-40 h-40 bg-farm-gold rounded-full opacity-20"></div>
+            <div class="absolute -bottom-20 -right-20 w-40 h-40 bg-farm-gold rounded-full opacity-15"></div>
+            <div class="absolute top-10 left-10 w-8 h-8 opacity-30">
+                <i class="fa-solid fa-leaf text-4xl text-amber-200"></i>
+            </div>
+            <div class="absolute top-10 right-10 w-8 h-8 opacity-30">
+                <i class="fa-solid fa-leaf text-4xl text-amber-200 transform rotate-45"></i>
+            </div>
+
+            <div class="relative z-10">
+                <div class="inline-block p-4 bg-farm-gold/30 rounded-full mb-4 border-2 border-farm-gold/50 float-animation">
+                    <i class="fa-solid font-bold fa-egg text-4xl text-amber-200"></i>
+                </div>
+                <h1 class="text-4xl font-extrabold tracking-wide font-serif-title text-amber-100 mb-2">TIDIAN FARMER</h1>
+                <div class="flex items-center justify-center space-x-2 text-sm tracking-widest text-farm-light uppercase font-semibold">
+                    <span class="w-8 h-px bg-farm-gold"></span>
+                    <span>TELUR/EGG</span>
+                    <span class="w-8 h-px bg-farm-gold"></span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tagline -->
+        <div class="bg-farm-gold text-farm-dark text-center py-3 px-4 text-sm font-medium tracking-wide shadow-md">
+            <i class="fa-solid fa-wheat-awn text-farm-primary mr-2"></i>
+            Telur Segar Langsung Panen dari Kandang Kami
+        </div>
+
+        <!-- Content Body -->
+        <div class="p-6 space-y-6 bg-farm-soft/50">
+
+            <!-- Paket 30 Butir -->
+            <div>
+                <div class="flex items-center space-x-2 mb-3">
+                    <span class="bg-farm-primary text-white text-xs px-2.5 py-1 rounded-md font-bold uppercase tracking-wider">Hemat</span>
+                    <h2 class="text-lg font-bold text-farm-dark">Paket 30 Butir</h2>
+                </div>
+
+                <div class="grid grid-cols-1 gap-2.5">
+                    <!-- Besar 30 -->
+                    <div class="bg-white p-3.5 rounded-xl border border-farm/60 shadow-sm flex justify-between items-center hover:border-farm-primary transition cursor-pointer" onclick="orderViaWhatsApp('Ukuran Besar 30 Butir', 'Rp 135.000')">
+                        <div class="flex items-center space-x-3">
+                            <div class="w-10 h-10 rounded-lg egg-badge flex items-center justify-center text-farm-dark font-bold text-lg border border-farm-light">
+                                L
+                            </div>
+                            <div>
+                                <p class="font-bold text-farm-dark text-sm">Ukuran Besar</p>
+                                <p class="text-xs text-gray-500">30 Butir Telur Segar</p>
+                            </div>
+                        </div>
+                        <span class="font-extrabold text-farm-primary text-base">Rp 135.000</span>
+                    </div>
+
+                    <!-- Sedang 30 -->
+                    <div class="bg-white p-3.5 rounded-xl border border-farm/60 shadow-sm flex justify-between items-center hover:border-farm-primary transition cursor-pointer" onclick="orderViaWhatsApp('Ukuran Sedang 30 Butir', 'Rp 120.000')">
+                        <div class="flex items-center space-x-3">
+                            <div class="w-10 h-10 rounded-lg egg-badge flex items-center justify-center text-farm-dark font-bold text-base border border-farm-light">
+                                M
+                            </div>
+                            <div>
+                                <p class="font-bold text-farm-dark text-sm">Ukuran Sedang</p>
+                                <p class="text-xs text-gray-500">30 Butir Telur Segar</p>
+                            </div>
+                        </div>
+                        <span class="font-extrabold text-farm-primary text-base">Rp 120.000</span>
+                    </div>
+
+                    <!-- Kecil 30 -->
+                    <div class="bg-white p-3.5 rounded-xl border border-farm/60 shadow-sm flex justify-between items-center hover:border-farm-primary transition cursor-pointer" onclick="orderViaWhatsApp('Ukuran Kecil 30 Butir', 'Rp 95.000')">
+                        <div class="flex items-center space-x-3">
+                            <div class="w-10 h-10 rounded-lg egg-badge flex items-center justify-center text-farm-dark font-bold text-sm border border-farm-light">
+                                S
+                            </div>
+                            <div>
+                                <p class="font-bold text-farm-dark text-sm">Ukuran Kecil</p>
+                                <p class="text-xs text-gray-500">30 Butir Telur Segar</p>
+                            </div>
+                        </div>
+                        <span class="font-extrabold text-farm-primary text-base">Rp 95.000</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Divider -->
+            <div class="border-t border-dashed border-farm-light"></div>
+
+            <!-- Paket 10 Butir -->
+            <div>
+                <div class="flex items-center space-x-2 mb-3">
+                    <span class="bg-farm-medium text-white text-xs px-2.5 py-1 rounded-md font-bold uppercase tracking-wider">Praktis</span>
+                    <h2 class="text-lg font-bold text-farm-dark">Paket 10 Butir</h2>
+                </div>
+
+                <div class="grid grid-cols-1 gap-2.5">
+                    <!-- Besar 10 -->
+                    <div class="bg-white p-3.5 rounded-xl border border-farm/60 shadow-sm flex justify-between items-center hover:border-farm-primary transition cursor-pointer" onclick="orderViaWhatsApp('Ukuran Besar 10 Butir', 'Rp 50.000')">
+                        <div class="flex items-center space-x-3">
+                            <div class="w-10 h-10 rounded-lg bg-farm-soft flex items-center justify-center text-farm-dark font-bold text-lg border border-farm-light">
+                                L
+                            </div>
+                            <div>
+                                <p class="font-bold text-farm-dark text-sm">Ukuran Besar</p>
+                                <p class="text-xs text-gray-500">10 Butir Telur Segar</p>
+                            </div>
+                        </div>
+                        <span class="font-extrabold text-farm-primary text-base">Rp 50.000</span>
+                    </div>
+
+                    <!-- Sedang 10 -->
+                    <div class="bg-white p-3.5 rounded-xl border border-farm/60 shadow-sm flex justify-between items-center hover:border-farm-primary transition cursor-pointer" onclick="orderViaWhatsApp('Ukuran Sedang 10 Butir', 'Rp 45.000')">
+                        <div class="flex items-center space-x-3">
+                            <div class="w-10 h-10 rounded-lg bg-farm-soft flex items-center justify-center text-farm-dark font-bold text-base border border-farm-light">
+                                M
+                            </div>
+                            <div>
+                                <p class="font-bold text-farm-dark text-sm">Ukuran Sedang</p>
+                                <p class="text-xs text-gray-500">10 Butir Telur Segar</p>
+                            </div>
+                        </div>
+                        <span class="font-extrabold text-farm-primary text-base">Rp 45.000</span>
+                    </div>
+
+                    <!-- Kecil 10 -->
+                    <div class="bg-white p-3.5 rounded-xl border border-farm/60 shadow-sm flex justify-between items-center hover:border-farm-primary transition cursor-pointer" onclick="orderViaWhatsApp('Ukuran Kecil 10 Butir', 'Rp 39.000')">
+                        <div class="flex items-center space-x-3">
+                            <div class="w-10 h-10 rounded-lg bg-farm-soft flex items-center justify-center text-farm-dark font-bold text-sm border border-farm-light">
+                                S
+                            </div>
+                            <div>
+                                <p class="font-bold text-farm-dark text-sm">Ukuran Kecil</p>
+                                <p class="text-xs text-gray-500">10 Butir Telur Segar</p>
+                            </div>
+                        </div>
+                        <span class="font-extrabold text-farm-primary text-base">Rp 39.000</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tagline Section -->
+            <div class="bg-gradient-to-r from-amber-50 to-orange-50 p-5 rounded-2xl border border-amber-200/60 text-center">
+                <p class="text-farm-dark font-semibold text-sm mb-3 leading-relaxed">
+                    <i class="fa-solid fa-quote-left text-farm-gold mr-2"></i>
+                    Siap Mendarat di Rumah Anda :)
+                    <i class="fa-solid fa-quote-right text-farm-gold ml-2"></i>
+                </p>
+                <div class="inline-flex items-center space-x-2 bg-green-100 text-green-700 px-4 py-2 rounded-full text-xs font-bold">
+                    <i class="fa-solid fa-truck-fast"></i>
+                    <span>READY TO DELIVERY</span>
+                </div>
+            </div>
+
+            <!-- Keunggulan -->
+            <div class="bg-white p-4 rounded-2xl border border-farm-light/60 shadow-sm">
+                <h3 class="text-center font-bold text-farm-dark mb-3 text-sm uppercase tracking-wide">
+                    <i class="fa-solid fa-certificate text-farm-gold mr-2"></i>Kenapa Kami?
+                </h3>
+                <div class="space-y-2 text-xs text-farm-dark">
+                    <div class="flex items-center space-x-2">
+                        <i class="fa-solid fa-circle-check text-green-600"></i>
+                        <span>Telur segar langsung dari peternakan</span>
+                    </div>
+                    <div class="flex items-center space-x-2">
+                        <i class="fa-solid fa-circle-check text-green-600"></i>
+                        <span>Kualitas terjamin bersih & bebas bakteri</span>
+                    </div>
+                    <div class="flex items-center space-x-2">
+                        <i class="fa-solid fa-circle-check text-green-600"></i>
+                        <span>Pengiriman aman dengan kemasan khusus</span>
+                    </div>
+                    <div class="flex items-center space-x-2">
+                        <i class="fa-solid fa-circle-check text-green-600"></i>
+                        <span>Harga terjangkau untuk kebutuhan harian</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Footer / Pemesanan -->
+        <div class="bg-farm-dark text-white p-6 text-center space-y-4">
+            <p class="text-xs text-farm-light uppercase tracking-wider font-semibold">
+                <i class="fa-solid fa-phone-volume mr-2"></i>Hubungi Kami:
+            </p>
+
+            <!-- WhatsApp Numbers -->
+            <div class="space-y-2">
+                <button onclick="orderViaWhatsAppGeneral('6281295181963')" class="w-full bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-3 px-4 rounded-xl transition shadow-lg flex items-center justify-center space-x-2 whatsapp-btn">
+                    <i class="fa-brands fa-whatsapp text-xl"></i>
+                    <span>0812-9518-1963</span>
+                </button>
+                <button onclick="orderViaWhatsAppGeneral('6282193222927')" class="w-full bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-3 px-4 rounded-xl transition shadow-lg flex items-center justify-center space-x-2 whatsapp-btn">
+                    <i class="fa-brands fa-whatsapp text-xl"></i>
+                    <span>0821-9322-2927</span>
+                </button>
+            </div>
+
+            <p class="text-[10px] text-gray-400 pt-2">
+                <i class="fa-solid fa-heart text-red-400 mr-1"></i>
+                Melayani dengan sepenuh hati
+            </p>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
